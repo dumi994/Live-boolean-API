@@ -1,0 +1,43 @@
+.container{
+    width:1170px;
+    margin:10px auto;
+
+}
+
+.product{
+    position:relative;
+    display:inline-block;
+
+}
+
+.badge{
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+
+.heart_icon{
+    position:relative;
+    bottom:0;
+    left:50%;
+    
+}
+
+.bg_red{
+    background-color: red;
+}
+
+.bg_green{
+    background-color: green;
+}
+
+.heart_icon{
+    display: none;
+    position:absolute;
+}
+
+.product:hover .heart_icon{
+    display:block;
+    color:red;
+}

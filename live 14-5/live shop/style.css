@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height:50px;
+}
+header h1{
+    color:white
+
+}
+.product > img{
+    width:200px;
+    height: 240px;
+    margin: 10px;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+}
+.product{
+    border: 1px solid lightgrey;
+    padding:0.5rem;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+.prezzo{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background-color: red;
+    padding:0.4rem;
+    border-radius: 5px;
+    color: white;
+}
+.button{
+    background-color: black;
+    color: white;
+    margin:0.5rem;
+    padding:0.1rem 6rem;
+    border-radius: 0.5rem;
+    width:100%;
+}
+footer{
+    text-align:right;
+    margin: 10px;
+}

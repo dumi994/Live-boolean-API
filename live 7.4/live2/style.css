@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    height: 35px;
+}
+
+header{
+    background-color: red;
+    height:100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+}
+
+p{
+    width:200px;
+    background-color: palegreen;
+    margin:10px;
+    padding:10px;
+    justify-content: left;
+}
+
+.flex-container{
+    display: flex;
+  /*   flex-wrap: wrap-reverse; */
+ /*    justify-content: center; */
+}

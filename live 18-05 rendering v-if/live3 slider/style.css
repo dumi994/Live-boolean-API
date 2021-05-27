@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#root{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-self: center;
+}
+img{
+    width:800px;
+    height: 400px;
+    object-fit: cover;
+    margin: 130px auto;
+    border-radius: 35px 0 35px 0;
+}
+.prev, .next{
+    font-size: 3rem;
+    align-self: center;
+}

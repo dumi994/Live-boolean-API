@@ -1,0 +1,63 @@
+.logo img{
+    height:40px;
+    vertical-align: middle;
+}
+
+
+.list-none{
+    list-style: none;
+}
+header .list-none li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+
+header{
+    padding:20px 0;
+}
+
+
+.menu{
+    text-align: right;
+}
+.menu a{
+    padding:10px;
+    text-decoration: none;
+    color:black;
+}
+
+.btn{
+    padding:10px;
+    border:1px solid green;
+    border-radius: 5px;
+    color:green;
+    display: inline-block;
+}
+
+
+
+main .list-none li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+.blue_box{
+    background-color: blue;
+    color:white;
+    padding:30px;
+}
+
+.bg_blue{
+    background-color:#002d88;
+}
+.bg_dark_blue{
+    background-color: darkblue;
+}
+
+.bg_blue>img{
+    width:50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}

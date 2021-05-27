@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Boolean Tasks</title>
+</head>
+<body>
+    <div id="root">
+
+        <div class="logo">
+            <img width="120" :src="logo" alt="">
+        </div>
+
+        <div class="add_task">
+            <input type="text" v-model="newTask" placeholder="Add new task">
+            <button @click="addTask">Add Task</button>
+        </div>
+
+        <!-- LISTA TASK -->
+        <div class="tasks" v-if="tasks.length > 0">
+            <div class="task" v-for="(task, index) in tasks">{{task}} 
+                <i class="fas fa-times-circle" @click="removeTask(index)"></i>
+            </div>
+        </div>
+        <div class="no_tasks" v-else>
+            <p>Nothing to do</p>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

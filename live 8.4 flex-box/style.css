@@ -1,0 +1,52 @@
+/* body{
+    background-color: black;;
+} */
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    width:100%;
+    height:100vh;
+    background-color: black;;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.flex_col{
+    flex-direction: column;
+}
+
+.top_controls{
+    height:30px;
+    background-color: yellow;
+    width:100%;
+    align-items: center;
+}
+
+.top_controls > a.btn{
+    text-decoration: none;
+    color:white;
+    padding:5px 10px;
+    
+}
+
+.users_list{
+    background-color: aquamarine;
+    height:400px;
+    width:100%;
+
+}
+
+.main_controls{
+    background-color:yellow;
+    height: 80px;
+    width:100%;
+
+}

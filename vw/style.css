@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+nav{
+    text-align: center;
+    width:100vw;
+    line-height:100px;
+    background-color: lightgrey;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.logo{
+    vertical-align: middle;
+    height:20px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding:0 15px;
+}
+
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#001533;
+    height:100%;
+
+}
+
+ul li:not(:first-child):hover{
+    border-bottom:5px solid #00e165;
+    
+}
+
+
+nav>ul>li>a:hover{
+    border-bottom:rgb(15, 202, 15);
+
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+}
+
+.rettangolo{
+    height:300px;
+    width:100%;
+    background-color: blue;
+}
+
+
+
+@media screen and (min-width:320px){
+    .rettangolo{
+        width:100%;
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width:480px){
+    .rettangolo{
+        width:100%;
+        background-color: green;
+    }
+}

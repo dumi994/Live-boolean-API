@@ -1,0 +1,23 @@
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+.box{
+    background-color: lightgreen;
+    height:700px;
+    margin: 50px auto;
+    cursor:pointer;
+}
+
+.box:hover .title{
+    color:red;
+
+}
+
+.title{
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    line-height: 400px;
+}
